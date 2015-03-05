@@ -167,4 +167,9 @@
   $(function() {
     setTimeout(scroller, 0);
   });
+
+  $(window).resize(function() {
+    stickyWrapper.css('height', stickyElement.outerHeight());
+  });
+  
 })(jQuery);
