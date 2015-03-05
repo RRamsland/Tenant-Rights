@@ -700,6 +700,14 @@ body{
   line-height:1.6;
   color: #414141;
 }
+.stuck{
+  height:108px;
+}
+@media(max-width:1000px){
+  .stuck{
+    height:60px;
+  }
+}
 /* Utilities */
 
 .cf:before,
