@@ -673,7 +673,7 @@ body{
 }
 .content-front{
   clear:both;
-  padding:0 30px;
+  padding:30px;
 }
 
 @media(max-width:1230px){
