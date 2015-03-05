@@ -653,6 +653,7 @@ blockquote{
 /*Layout Update*/
 body{
   background:#eef3fa;
+  overflow:hidden;
 }
 .page{
   max-width:1200px;
