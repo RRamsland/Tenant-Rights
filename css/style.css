@@ -725,6 +725,10 @@ body{
     display:none;
   }
 }
+.banner-main{
+  max-width: 100%;
+  height: auto;
+}
 /* Utilities */
 
 .cf:before,
