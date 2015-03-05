@@ -702,14 +702,14 @@ body{
   padding: 0;
 }
 .header-subnav li{
-  border-bottom: 1px solid lightblue;
+  border-bottom: 1px solid silver;
 }
 .subnav-link{
   margin: 0px;
   border-radius: 0px;
   display: block;
   background: rgb(74, 96, 119);
-  padding: 0.35em;
+  padding: 0.5em;
   font: 12px 'Open Sans', sans-serif;
   letter-spacing: 1px;
   color: white;
