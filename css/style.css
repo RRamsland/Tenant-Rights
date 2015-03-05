@@ -35,6 +35,7 @@ body {
 .navbar {
 	float: right;
   line-height: 70px;
+  font-size:18px;
 }
 .hamburger{
   float: right;
