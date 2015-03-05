@@ -670,10 +670,12 @@ body{
   background:#fff;
   float:left;
   width:100%;
+  margin-top: 30px;
+  box-shadow: 0 0 8px 1px gray;
 }
 .content-front{
   clear:both;
-  padding:30px;
+  padding:0 30px;
 }
 
 @media(max-width:1230px){
