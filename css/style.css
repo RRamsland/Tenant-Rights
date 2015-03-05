@@ -689,6 +689,11 @@ body{
     width:100%;
   }
 }
+@media(max-width:450px){
+  .content-front{
+    padding:18px;
+  }
+}
 
 .content-front h1{
   text-align:center;
