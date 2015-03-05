@@ -710,7 +710,7 @@ body{
   display: block;
   background: rgb(74, 96, 119);
   padding: 0.5em;
-  font: 12px 'Open Sans', sans-serif;
+  font: 13px 'Open Sans', sans-serif;
   letter-spacing: 1px;
   color: white;
   transition: all 0.2s ease;
