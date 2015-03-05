@@ -693,6 +693,12 @@ body{
 .content-front h1{
   text-align:center;
 }
+.content-front p
+{
+  font-size: 12pt;
+  margin-bottom: 20px;
+  line-height:1.6;
+}
 /* Utilities */
 
 .cf:before,
