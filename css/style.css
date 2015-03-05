@@ -661,9 +661,10 @@ body{
   overflow:hidden;
 }
 .main-Content{
-  width:71.7%;
-  float:left;
+  /*width:71.7%;
+  float:left;*/
   max-width:860px;
+  margin:0 auto;
 }
 .content-back{
   background:#fff;
