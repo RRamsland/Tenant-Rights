@@ -175,18 +175,6 @@ body {
 	overflow: hidden;
 }
 
-@media(min-width:700px){
-	.typography{
-		width:85%;
-		margin:auto }
-		/* adjusting text width */
-	.typography p{
-		text-indent: 1em; }
-	body{
-		font-size:18px;
-	}
-}
-
 h1,h2,h3{
   font-family:"Libre Baskerville";
   font-weight:normal;
