@@ -20,7 +20,7 @@ body {
 	font: 1em "Open Sans", sans-serif;
   letter-spacing: 1px;
   color: white;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   transition: all .2s ease;
 }
 .nav-link:hover {
