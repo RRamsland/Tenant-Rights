@@ -169,7 +169,7 @@
   });
 
   $(window).resize(function() {
-    stickyWrapper.css('height', stickyElement.outerHeight());
+    $(".stickyWrapper").css('height', $(".site-header").outerHeight());
   });
   
 })(jQuery);
