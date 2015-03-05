@@ -650,6 +650,43 @@ blockquote{
 .helpfulLink{
 	font-size:16px;
 }
+/*Layout Update*/
+body{
+  background:#eef3fa;
+}
+.page{
+  max-width:1200px;
+  min-width:240px;
+  margin:0 auto;
+}
+.main-content{
+  width:71.7%;
+  float:left;
+  max-width:860px;
+}
+.content-back{
+  background:#fff;
+  float:left;
+  width:100%;
+}
+.content-front{
+  clear:both;
+  padding:0,30px;
+}
+
+@media(max-width:1230px){
+  .page{
+    max-width:96%;
+    float:none;
+    clear:both;
+    overflow:hidden;
+  }
+}
+@media(max-width:800px){
+  .main-content{
+    width:100%;
+  }
+}
 /* Utilities */
 
 .cf:before,
