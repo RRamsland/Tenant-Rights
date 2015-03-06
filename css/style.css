@@ -1,5 +1,5 @@
 body {
-  font-size:14px;
+  font-size:14pt;
   font-family:"Open Sans";
 }
 
@@ -728,6 +728,15 @@ body{
 .banner-main{
   max-width: 100%;
   height: auto;
+}
+h1{
+  font-size:1.5em;
+}
+h2{
+  font-size:1.125em;
+}
+h3{
+  font-size:1.1em;
 }
 /* Utilities */
 
