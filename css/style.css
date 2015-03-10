@@ -731,18 +731,30 @@ body{
 }
 
 .aside{
-  float: none; 
-  width: 30%; 
-  max-width: 400px; 
-  overflow: hidden; 
-  margin-top: 30px; 
-  border-radius: 4px; 
-  background: white;"
+  float: left;
+  width: 35%;
+  max-width: 400px;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 4px;
 }
 .sidebar{
-  padding: 10px;
+  padding: 6px 10px;
+  position: fixed;
 }
-
+@media(min-width:1000px){
+  .subTopicLinks{
+    padding: 0 25px;
+  }
+  .subTopicLinks:hover{
+    background: #eef3fa;
+  }
+  .main-Content{
+    float:left;
+    width:60%;
+  }
+}
 /* Utilities */
 
 .cf:before,
