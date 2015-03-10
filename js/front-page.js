@@ -15,7 +15,6 @@ $(document).ready(function(){
         if( $(window).width() < 1000 ) {  
         $('.navbar').hide();
         $(".pageTopArrow").show();
-        //$(".pageTopArrow").sticky('update');
         }
     });
 
@@ -28,11 +27,13 @@ $(document).ready(function(){
     
     $(".pageTopArrow").css("display", "none");
     $(window).scroll(function(){
-        if($(window).scrollTop() > 0){
-            $(".pageTopArrow").fadeIn("slow");
-        }
-        else {
-            $(".pageTopArrow").fadeOut("slow");
+        if($(window).width() > 1000){
+            if($(window).scrollTop() > 0){
+                $(".pageTopArrow").fadeIn("slow");
+            }
+            else {
+                $(".pageTopArrow").fadeOut("slow");
+            }
         }
     });
 
