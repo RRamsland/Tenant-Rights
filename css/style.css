@@ -757,6 +757,9 @@ body{
   #subTopicSection{
     display:none;
   }
+  .pageTopArrow{
+    display:none;
+  }
 }
 @media(max-width:1000px){
   .aside{
