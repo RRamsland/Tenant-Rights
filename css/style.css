@@ -774,9 +774,11 @@ h1:first-child {
 .siteTitle{
   text-align: center;
   margin-top: 30px !important;
+  margin-bottom: 15px !important;
 }
 .subTitle{
   font-style:italic;
+  padding-top: 0px;
 }
 /* Utilities */
 
