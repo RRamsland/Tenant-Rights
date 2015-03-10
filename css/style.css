@@ -768,6 +768,9 @@ body{
     display:none;
   }
 }
+h1:first-child {
+  margin: 0;
+}
 /* Utilities */
 
 .cf:before,
