@@ -7,6 +7,7 @@ $(document).ready(function(){
     $(window).resize(function() {
         if( $(window).width() > 1000 ) { 
         $('.navbar').show();
+        $(".pageTopArrow").hide();
         }
     });
 
@@ -14,7 +15,7 @@ $(document).ready(function(){
         if( $(window).width() < 1000 ) {  
         $('.navbar').hide();
         $(".pageTopArrow").show();
-        $(".pageTopArrow").sticky('update');
+        //$(".pageTopArrow").sticky('update');
         }
     });
 
