@@ -754,6 +754,14 @@ body{
     float:left;
     width:60%;
   }
+  #subTopicSection{
+    display:none;
+  }
+}
+@media(max-width:1000px){
+  .aside{
+    display:none;
+  }
 }
 /* Utilities */
 
