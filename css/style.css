@@ -742,6 +742,8 @@ body{
 .sidebar{
   padding: 6px 10px;
   position: fixed;
+  width: inherit;
+  max-width: inherit
 }
 @media(min-width:1000px){
   .subTopicLinks{
