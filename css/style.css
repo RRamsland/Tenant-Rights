@@ -752,7 +752,7 @@ body{
   .subTopicLinks:hover{
     background: #eef3fa;
   }
-  .main-Content{
+  .withAside{
     float:left;
     width:60%;
   }

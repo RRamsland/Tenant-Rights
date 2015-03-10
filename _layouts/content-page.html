@@ -2,12 +2,13 @@
 {% include header.html %}
 
 <div class="page" role="main">
-	<div class="main-Content">
+	<div class="main-Content withAside">
 		<div class="content-back">
 			<div class="content-front">
 				{{ content }}
 			</div>
 		</div>
 	</div>
+	{{ page.aside }}
 </div>
 {% include footer.html %}
