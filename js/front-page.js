@@ -5,16 +5,16 @@ $(document).ready(function(){
     });
 
     $(window).resize(function() {
-        if( $(window).width() > 1000 ) { 
-        $('.navbar').show();
-        $(".pageTopArrow").hide();
+        if( window.innerWidth > 1000 ) {
+            $('.navbar').show();
+            $(".pageTopArrow").hide();
         }
     });
 
     $(window).resize(function() {
-        if( $(window).width() < 1000 ) {  
-        $('.navbar').hide();
-        $(".pageTopArrow").show();
+        if( window.innerWidth < 1000 ) {
+            $('.navbar').hide();
+            $(".pageTopArrow").show();
         }
     });
 
@@ -27,7 +27,7 @@ $(document).ready(function(){
     
     //$(".pageTopArrow").css("display", "none");
     $(window).scroll(function(){
-        if($(window).width() > 1000){
+        if(window.innerWidth > 1000){
             if($(window).scrollTop() > 0){
                 $(".pageTopArrow").fadeIn("slow");
             }
