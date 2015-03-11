@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     $(".site-header").sticky({topSpacing:'0px',className:'stuck'});
     
-    $(".pageTopArrow").css("display", "none");
+    //$(".pageTopArrow").css("display", "none");
     $(window).scroll(function(){
         if($(window).width() > 1000){
             if($(window).scrollTop() > 0){

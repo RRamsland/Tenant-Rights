@@ -477,15 +477,14 @@ header h4 {
   opacity:1;
 }
 
-@media(max-width:660px){
+@media(max-width:1000px){
   .pageTopArrow{
     display:block;
   }
 }
 @media(min-width:1000px){
   .pageTopArrow{
-    top: 140px;
-    right: 24%;
+    display:none;
   }
 }
 
@@ -757,9 +756,6 @@ body{
     width:60%;
   }
   #subTopicSection{
-    display:none;
-  }
-  .pageTopArrow{
     display:none;
   }
 }
